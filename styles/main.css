@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    background:rgba(223, 198, 248, 0.8)
+}
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background: rgb(25, 26, 25);
+    padding:12px;
+}
+li:first-child a{
+    float: left;
+    font-size:1.2rem;
+    color:white;
+}
+li a {
+    float: right;
+    margin: 6px;
+    color:orangered;
+    text-decoration: none;
+}
+header {
+    background: url('../images/bike2.jpg');
+    background-size: cover;
+    height:70vh;
+}
+.intro {
+    color:white;
+    width: 40vw;
+    margin-top: 85px;
+    margin-left: 23px;
+    font-size: 1.3rem;
+    padding: 9px;
+    background: rgba(25, 26, 25, .4);
+}
+.getstarted {
+    outline: none;
+    border: none;
+    background: #000;
+    color: #f2f2f2;
+    padding: 9px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+a:hover {color:white; border-bottom: 1px solid blue; transition: ease .4s;}
+.container {
+    padding: 12px;
+    height:40vh;
+    width:80vw;
+    margin: auto;
+}
+.about {
+    text-align: center;
+    line-height: 2.5em;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    box-shadow: 2px 2px 8px 2px #333;
+    margin:5px;
+    padding: 4px;
+    min-height: 25vh;
+}
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.card-content {
+    padding: 4px;
+    margin-top: 5px;
+}
+.footer-container {
+    background: #333;
+    padding:34px;
+    text-align: center;
+    margin-top: 12px;
+    color: whitesmoke;
+}
